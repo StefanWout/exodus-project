@@ -4,6 +4,11 @@
 - Alegreya Sans SC - Block Caps body font
 */
 
-h2 {
-    font-family: "Chakra Petch";
+h1 {
+    font-family: "Orbitron", sans-serif;
+}
+
+.navbar-brand {
+    background-color: orange;
+    color: grey;
 }
