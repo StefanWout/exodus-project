@@ -4,6 +4,10 @@
 - Alegreya Sans SC - Block Caps body font
 */
 
+body{
+min-height: 100vh;
+}
+
 h1 {
     font-family: "Orbitron", sans-serif;
     position: relative;
@@ -13,4 +17,22 @@ h1 {
 .navbar-brand {
     background-color: orange;
     color: grey;
+}
+
+.bg-image {
+    background-image: url(/assets/images/spacebackgroung.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.border-text {
+    color: rgb(14, 14, 14); /* Text color */
+    font-size: 50px; /* Size of the text */
+    
+    text-shadow: 
+        -1px -1px 0 #fafafa,  
+         1px -1px 0 #fafafa,
+        -1px  1px 0 #fafafa,
+         1px  1px 0 #fafafa; /* Shadow effect simulating a black border */
 }
